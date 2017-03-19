@@ -1,0 +1,2 @@
+# STP
+Sailing Trip Planner

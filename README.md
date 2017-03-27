@@ -12,7 +12,7 @@
 
 **Description:**
 
-Sailing Trip Planner is a Windows Form Application, written in C#. 
+Sailing Trip Planner is a Windows Form Application, written in C#, using Visual Studio Community 2015.  It was designed using Windows 10 OS on a PC.  
 
 This particular application is tailored to my personal sailboat, a 1967 Cal 25, moored at Squalicum Harbor, where majority of my trips occur in and around the San Juan Islands area.
 

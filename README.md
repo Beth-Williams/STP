@@ -1,9 +1,10 @@
 # Sailing Trip Planner (STP)
 
-#### Copyrighted 
-**2017** '\n'
-**Beth Williams** '\n'
-**Email: Beth.A.Williams6744@gmail.com** '\n'
+#### Copyrighted  
+
+**2017** 
+**Beth Williams** 
+**Email: Beth.A.Williams6744@gmail.com**
 
 **Description:**
 

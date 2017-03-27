@@ -1,7 +1,7 @@
 # Sailing Trip Planner (STP)
 
-## Author: Beth Williams
-## Email: Beth.A.Williams6744@gmail.com
+### Author: Beth Williams
+### Email: Beth.A.Williams6744@gmail.com
 
 **Description:**
 

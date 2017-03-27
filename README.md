@@ -1,10 +1,10 @@
 # Sailing Trip Planner (STP)
 
-#### Copyrighted  
+#### Copyright:
 
 **2017** 
 
-**Beth Williams** 
+**Author: Beth Williams** 
 
 **Email: Beth.A.Williams6744@gmail.com**
 

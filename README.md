@@ -1,6 +1,7 @@
 # Sailing Trip Planner (STP)
 
-### Author: Beth Williams
+## Author: Beth Williams
+## Email: Beth.A.Williams6744@gmail.com
 
 **Description:**
 
@@ -16,7 +17,8 @@ A PowerPoint presentation is available for download under the STP directory, Sai
 
 **Images**
 
-Images used throughout the Application are available under the STP directory in the subfolders, Background, Navaigation, and Extra Tools.
+Images used throughout the Application are available under the STP directory in the subfolders, Background, NavCharts, and ExtraTools.
+
 
 
 

@@ -14,6 +14,10 @@ This application is not meant to be used as a replacement to proper Navigation r
 
 A PowerPoint presentation is available for download under the STP directory, SailingNavigation.pptx.
 
+**Images**
+
+Images used throughout the Application are available under the STP directory in the subfolders, Background, Navaigation, and Extra Tools.
+
 
 
 

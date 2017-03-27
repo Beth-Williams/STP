@@ -1,8 +1,8 @@
-# STP: Sailing Tri Planner
+# STP: Sailing Trip Planner
 
 ### Author: Beth Williams
 
-_Description_
+**Description**
 
 
 

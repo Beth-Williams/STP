@@ -1,4 +1,10 @@
 # STP
-Sailing Trip Planner 
+## Author: Beth Williams
 
-Author: Beth Williams
+Sailing Trip Planner
+
+_Description_
+
+
+
+

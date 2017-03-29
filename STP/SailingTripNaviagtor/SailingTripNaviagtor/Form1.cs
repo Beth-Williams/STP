@@ -451,12 +451,29 @@ namespace SailingTripNaviagtor
         {
             string wind = Convert.ToString(WindSpeed.SelectedItem);
             BoatSpeed.Text = Convert.ToString(windspeed[wind]);
+            try
+            {
+                double Time = Convert.ToDouble(D.Text) / Convert.ToDouble(BoatSpeed.Text);
+                TravelT.Text = Convert.ToString(Time);
+            }
+            catch
+            {
+                MessageBox.Show("Please enter your traveling distance in nautical miles");
+            }
         }
 
         private void TravelT_fill(object sender, EventArgs e)
         {
-            double Time = Convert.ToDouble(D.Text) / Convert.ToDouble(BoatSpeed.Text);
-            TravelT.Text = Convert.ToString(Time);
+            try
+            {
+                double Time = Convert.ToDouble(D.Text) / Convert.ToDouble(BoatSpeed.Text);
+                TravelT.Text = Convert.ToString(Time);
+            }
+            catch
+            {
+                MessageBox.Show("Please enter a valid distance in nautical miles");
+            }
+           
         }
 
         private void ArrT_Fill(object sender, EventArgs e)

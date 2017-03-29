@@ -152,7 +152,7 @@
             this.panel1.Location = new System.Drawing.Point(52, 57);
             this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(320, 309);
+            this.panel1.Size = new System.Drawing.Size(361, 309);
             this.panel1.TabIndex = 0;
             // 
             // label7
@@ -179,7 +179,7 @@
             this.TravelT.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TravelT.Location = new System.Drawing.Point(151, 274);
             this.TravelT.Name = "TravelT";
-            this.TravelT.Size = new System.Drawing.Size(164, 23);
+            this.TravelT.Size = new System.Drawing.Size(78, 23);
             this.TravelT.TabIndex = 10;
             // 
             // D
@@ -187,7 +187,7 @@
             this.D.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.D.Location = new System.Drawing.Point(151, 228);
             this.D.Name = "D";
-            this.D.Size = new System.Drawing.Size(164, 23);
+            this.D.Size = new System.Drawing.Size(78, 23);
             this.D.TabIndex = 9;
             this.D.TextChanged += new System.EventHandler(this.TravelT_fill);
             // 
@@ -197,7 +197,7 @@
             this.BoatSpeed.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BoatSpeed.Location = new System.Drawing.Point(151, 179);
             this.BoatSpeed.Name = "BoatSpeed";
-            this.BoatSpeed.Size = new System.Drawing.Size(164, 23);
+            this.BoatSpeed.Size = new System.Drawing.Size(78, 23);
             this.BoatSpeed.TabIndex = 8;
             // 
             // label5
@@ -215,7 +215,7 @@
             this.WindSpeed.FormattingEnabled = true;
             this.WindSpeed.Location = new System.Drawing.Point(151, 130);
             this.WindSpeed.Name = "WindSpeed";
-            this.WindSpeed.Size = new System.Drawing.Size(164, 24);
+            this.WindSpeed.Size = new System.Drawing.Size(193, 24);
             this.WindSpeed.TabIndex = 6;
             this.WindSpeed.SelectedIndexChanged += new System.EventHandler(this.WindSpeed_Select);
             this.WindSpeed.Click += new System.EventHandler(this.WindSpeed_click);
@@ -234,7 +234,7 @@
             this.Notes.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Notes.Location = new System.Drawing.Point(72, 75);
             this.Notes.Name = "Notes";
-            this.Notes.Size = new System.Drawing.Size(191, 23);
+            this.Notes.Size = new System.Drawing.Size(272, 23);
             this.Notes.TabIndex = 4;
             // 
             // label3
@@ -279,7 +279,7 @@
             this.panel2.Controls.Add(this.DepT);
             this.panel2.Controls.Add(this.label1);
             this.panel2.Controls.Add(this.Departure);
-            this.panel2.Location = new System.Drawing.Point(380, 57);
+            this.panel2.Location = new System.Drawing.Point(421, 57);
             this.panel2.Margin = new System.Windows.Forms.Padding(4);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(268, 309);

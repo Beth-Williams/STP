@@ -1,6 +1,6 @@
 # Sailing Trip Planner (STP)
 
-#### Copyright:2017 
+#### Copyright: 2017 
 
 **Author: Beth Williams** 
 

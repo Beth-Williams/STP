@@ -16,16 +16,6 @@ This particular application is tailored to my personal sailboat, a 1967 Cal 25, 
 
 This application is not meant to be used as a replacement to proper Navigation resources, and is primarily useful as an aid,  and a planning tool when navigation resources are not available.
 
-**Presentation**
 
-A PowerPoint presentation is available for download under the STP directory, SailingNavigation.pptx.
-
-**Images**
-
-Images used throughout the Application are available under the STP directory in the subfolders, Background, NavCharts, and ExtraTools.
-
-**The Code**
-
-All C# files can be found under the following directory, STP/STP/SailingTripNaviagtor/SailingTripNaviagtor/.
 
 

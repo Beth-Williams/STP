@@ -17,3 +17,13 @@ C:\Code Projects\STP_Repo\STP\STP\SailingTripNaviagtor\SailingTripNaviagtor\obj\
 C:\Code Projects\STP_Repo\STP\STP\SailingTripNaviagtor\SailingTripNaviagtor\obj\Release\SailingTripNaviagtor.Form1.resources
 C:\Code Projects\STP_Repo\STP\STP\SailingTripNaviagtor\SailingTripNaviagtor\obj\Release\SailingTripNaviagtor.Properties.Resources.resources
 C:\Code Projects\STP_Repo\STP\STP\SailingTripNaviagtor\SailingTripNaviagtor\obj\Release\SailingTripNaviagtor.csproj.GenerateResource.Cache
+C:\Code Projects\Repositories\STP_Repo\STP\STP\SailingTripNaviagtor\SailingTripNaviagtor\bin\Release\SailingTripNaviagtor.exe.config
+C:\Code Projects\Repositories\STP_Repo\STP\STP\SailingTripNaviagtor\SailingTripNaviagtor\obj\Release\SailingTripNaviagtor.csproj.ResolveComReference.cache
+C:\Code Projects\Repositories\STP_Repo\STP\STP\SailingTripNaviagtor\SailingTripNaviagtor\obj\Release\SailingTripNaviagtor.exe
+C:\Code Projects\Repositories\STP_Repo\STP\STP\SailingTripNaviagtor\SailingTripNaviagtor\obj\Release\SailingTripNaviagtor.pdb
+C:\Code Projects\Repositories\STP_Repo\STP\STP\SailingTripNaviagtor\SailingTripNaviagtor\bin\Release\SailingTripNaviagtor.exe
+C:\Code Projects\Repositories\STP_Repo\STP\STP\SailingTripNaviagtor\SailingTripNaviagtor\bin\Release\SailingTripNaviagtor.pdb
+C:\Code Projects\Repositories\STP_Repo\STP\STP\SailingTripNaviagtor\SailingTripNaviagtor\obj\Release\SailingTripNaviagtor.csprojResolveAssemblyReference.cache
+C:\Code Projects\Repositories\STP_Repo\STP\STP\SailingTripNaviagtor\SailingTripNaviagtor\obj\Release\SailingTripNaviagtor.Form1.resources
+C:\Code Projects\Repositories\STP_Repo\STP\STP\SailingTripNaviagtor\SailingTripNaviagtor\obj\Release\SailingTripNaviagtor.Properties.Resources.resources
+C:\Code Projects\Repositories\STP_Repo\STP\STP\SailingTripNaviagtor\SailingTripNaviagtor\obj\Release\SailingTripNaviagtor.csproj.GenerateResource.Cache

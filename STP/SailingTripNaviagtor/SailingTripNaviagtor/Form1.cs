@@ -211,6 +211,7 @@ namespace SailingTripNaviagtor
             if (WiFi_Y.Checked == true)
             {
                 webBrowser1.Navigate("https://www.wunderground.com/MAR/PZ/133.html?MR=1");
+                //webBrowser1.Navigate("https://captainbdubyu.wordpress.com");
             }
             if (WiFi_N.Checked == true)
             {
@@ -298,39 +299,16 @@ namespace SailingTripNaviagtor
         }// end of ExtraT select
 
 
-        //Distance controls for when user does not have WiFi.
-
-        //From Index drop down menu is populated from distances.xls being imported and referencing the corresponding column.
-        private void FromIndex_click(object sender, EventArgs e)
-        {
-            DataSet ds = new DataSet();
-            ds = ConvertToExcel.ExcelImport.ImportExcelXLS("distances.xls", true);
-
-            for(int intcount = 0; intcount <ds.Tables[0].Rows.Count; intcount++)
-            {
-                int value = 0;
-                var val = ds.Tables[0].Rows[intcount][value].ToString();
-
-                if (!FromIndex.Items.Contains(val))
-                {
-                    FromIndex.Items.Add(val);
-                }
-            }
-
-            FromIndex.Sorted = true;
-            //FromIndex.ValueMember = "Index1";
-            //FromIndex.DisplayMember = "Index1";
-        }
-
+        //Distance controls for when user does not have WiFi
         
-        //From Destinations are queried from distances.xls based on From Index selected.
+        //From Destinations are queried from distances.xls.
         private void From_Click(object sender, EventArgs e)
         {
-            string colname = "Index1";
-            string Selected = FromIndex.SelectedItem.ToString();
+            //string colname = "Index1";
+            //string Selected = FromIndex.SelectedItem.ToString();
 
             DataSet ds = new DataSet();
-            ds = ConvertToExcel.ExcelImport.ImportExcelXLS_Query("distances.xls", true, Selected, colname);
+            ds = ConvertToExcel.ExcelImport.ImportExcelXLS("distances.xls", true);
 
             for (int intcount = 0; intcount < ds.Tables[0].Rows.Count; intcount++)
             {
@@ -344,43 +322,23 @@ namespace SailingTripNaviagtor
             }
 
             From.Sorted = true;
-            //From.ValueMember = "From";
-            //From.DisplayMember = "From";
+            From.ValueMember = "From";
+            From.DisplayMember = "From";
 
         }
 
-        //To Index drop down menu is populated from distances.xls being imported and referencing the corresponding column.
-        private void ToIndex_click(object sender, EventArgs e)
-        {
-            DataSet ds = new DataSet();
-            ds = ConvertToExcel.ExcelImport.ImportExcelXLS("distances.xls", true);
+        
 
-            for (int intcount = 0; intcount < ds.Tables[0].Rows.Count; intcount++)
-            {
-                int value = 1;
-                var val = ds.Tables[0].Rows[intcount][value].ToString();
-
-                if (!ToIndex.Items.Contains(val))
-                {
-                    ToIndex.Items.Add(val);
-                }
-            }
-
-            ToIndex.Sorted = true;
-            //ToIndex.ValueMember = "Index2";
-            //ToIndex.DisplayMember = "Index2";
-        }
-
-        //To Destinations are queried from distances.xls based on To Index selected.
+        //To Destinations are queried from distances.xls.
         private void To_Click(object sender, EventArgs e)
         {
             To.Items.Clear();
 
-            string colname = "Index2";
-            string Selected = ToIndex.SelectedItem.ToString();
+            //string colname = "Index2";
+            //string Selected = ToIndex.SelectedItem.ToString();
 
             DataSet ds = new DataSet();
-            ds = ConvertToExcel.ExcelImport.ImportExcelXLS_Query("distances.xls", true, Selected, colname);
+            ds = ConvertToExcel.ExcelImport.ImportExcelXLS("distances.xls", true);
 
             for (int intcount = 0; intcount < ds.Tables[0].Rows.Count; intcount++)
             {
@@ -394,8 +352,8 @@ namespace SailingTripNaviagtor
             }
 
             To.Sorted = true;
-            //To.ValueMember = "To";
-            //To.DisplayMember = "To";
+            To.ValueMember = "To";
+            To.DisplayMember = "To";
         }
 
         //Distance text box displays distance based on the concatenation of From and To locations.
@@ -436,7 +394,7 @@ namespace SailingTripNaviagtor
 
         private void WindSpeed_click(object sender, EventArgs e)
         {
-            windspeed = new Dictionary<string, int>{{"Motor Only (No Wind)", 6}, {"Light Wind (5 mph)", 2}, {"Moderate Wind (10-12 mph)", 4}, { "Strong Wind (15-20 mph)", 7}};
+            windspeed = new Dictionary<string, int>{{"Motor Only (No Wind)", 6}, {"Light Wind (5 knots)", 2}, {"Moderate Wind (10-12 knots)", 4}, { "Strong Wind (15-20 knots)", 7}};
 
             foreach(string key in windspeed.Keys)
             {

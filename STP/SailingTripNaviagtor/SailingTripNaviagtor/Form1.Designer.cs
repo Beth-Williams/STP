@@ -71,12 +71,8 @@
             this.label17 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
             this.To = new System.Windows.Forms.ComboBox();
-            this.ToIndex = new System.Windows.Forms.ComboBox();
             this.From = new System.Windows.Forms.ComboBox();
-            this.FromIndex = new System.Windows.Forms.ComboBox();
             this.navlabel = new System.Windows.Forms.Label();
             this.navBox = new System.Windows.Forms.ComboBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
@@ -225,9 +221,9 @@
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(3, 130);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(142, 17);
+            this.label4.Size = new System.Drawing.Size(151, 17);
             this.label4.TabIndex = 5;
-            this.label4.Text = "Wind Speed (mph)";
+            this.label4.Text = "Wind Speed (knots)";
             // 
             // Notes
             // 
@@ -523,22 +519,18 @@
             this.Dpanel.Controls.Add(this.label17);
             this.Dpanel.Controls.Add(this.label16);
             this.Dpanel.Controls.Add(this.label15);
-            this.Dpanel.Controls.Add(this.label14);
-            this.Dpanel.Controls.Add(this.label13);
             this.Dpanel.Controls.Add(this.To);
-            this.Dpanel.Controls.Add(this.ToIndex);
             this.Dpanel.Controls.Add(this.From);
-            this.Dpanel.Controls.Add(this.FromIndex);
-            this.Dpanel.Location = new System.Drawing.Point(958, 142);
+            this.Dpanel.Location = new System.Drawing.Point(1014, 145);
             this.Dpanel.Name = "Dpanel";
-            this.Dpanel.Size = new System.Drawing.Size(541, 264);
+            this.Dpanel.Size = new System.Drawing.Size(456, 210);
             this.Dpanel.TabIndex = 12;
             this.Dpanel.Visible = false;
             // 
             // Dist
             // 
             this.Dist.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Dist.Location = new System.Drawing.Point(254, 191);
+            this.Dist.Location = new System.Drawing.Point(209, 108);
             this.Dist.Name = "Dist";
             this.Dist.Size = new System.Drawing.Size(114, 23);
             this.Dist.TabIndex = 9;
@@ -546,7 +538,7 @@
             // label17
             // 
             this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(125, 194);
+            this.label17.Location = new System.Drawing.Point(63, 108);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(109, 17);
             this.label17.TabIndex = 8;
@@ -555,7 +547,7 @@
             // label16
             // 
             this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(283, 123);
+            this.label16.Location = new System.Drawing.Point(242, 43);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(27, 17);
             this.label16.TabIndex = 7;
@@ -564,70 +556,32 @@
             // label15
             // 
             this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(283, 45);
+            this.label15.Location = new System.Drawing.Point(24, 43);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(44, 17);
             this.label15.TabIndex = 6;
             this.label15.Text = "From";
             // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(24, 119);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(70, 17);
-            this.label14.TabIndex = 5;
-            this.label14.Text = "To Index";
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(26, 49);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(87, 17);
-            this.label13.TabIndex = 4;
-            this.label13.Text = "From Index";
-            // 
             // To
             // 
             this.To.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.To.FormattingEnabled = true;
-            this.To.Location = new System.Drawing.Point(345, 119);
+            this.To.Location = new System.Drawing.Point(277, 43);
             this.To.Name = "To";
             this.To.Size = new System.Drawing.Size(121, 24);
             this.To.TabIndex = 3;
             this.To.SelectedIndexChanged += new System.EventHandler(this.Dist_changed);
             this.To.Click += new System.EventHandler(this.To_Click);
             // 
-            // ToIndex
-            // 
-            this.ToIndex.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ToIndex.FormattingEnabled = true;
-            this.ToIndex.Location = new System.Drawing.Point(128, 116);
-            this.ToIndex.Name = "ToIndex";
-            this.ToIndex.Size = new System.Drawing.Size(121, 24);
-            this.ToIndex.TabIndex = 2;
-            this.ToIndex.Click += new System.EventHandler(this.ToIndex_click);
-            // 
             // From
             // 
             this.From.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.From.FormattingEnabled = true;
-            this.From.Location = new System.Drawing.Point(345, 45);
+            this.From.Location = new System.Drawing.Point(90, 40);
             this.From.Name = "From";
             this.From.Size = new System.Drawing.Size(121, 24);
             this.From.TabIndex = 1;
             this.From.Click += new System.EventHandler(this.From_Click);
-            // 
-            // FromIndex
-            // 
-            this.FromIndex.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.FromIndex.FormattingEnabled = true;
-            this.FromIndex.Location = new System.Drawing.Point(128, 45);
-            this.FromIndex.Name = "FromIndex";
-            this.FromIndex.Size = new System.Drawing.Size(121, 24);
-            this.FromIndex.TabIndex = 0;
-            this.FromIndex.Click += new System.EventHandler(this.FromIndex_click);
             // 
             // navlabel
             // 
@@ -899,25 +853,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1624, 857);
+            this.ClientSize = new System.Drawing.Size(1697, 852);
             this.Controls.Add(this.currents);
-            this.Controls.Add(this.pictureBox24);
-            this.Controls.Add(this.pictureBox23);
-            this.Controls.Add(this.pictureBox22);
-            this.Controls.Add(this.pictureBox21);
-            this.Controls.Add(this.pictureBox20);
-            this.Controls.Add(this.pictureBox19);
-            this.Controls.Add(this.pictureBox18);
-            this.Controls.Add(this.pictureBox17);
-            this.Controls.Add(this.pictureBox16);
-            this.Controls.Add(this.pictureBox15);
-            this.Controls.Add(this.pictureBox14);
-            this.Controls.Add(this.pictureBox13);
-            this.Controls.Add(this.pictureBox12);
-            this.Controls.Add(this.pictureBox11);
-            this.Controls.Add(this.pictureBox10);
-            this.Controls.Add(this.pictureBox9);
-            this.Controls.Add(this.pictureBox8);
             this.Controls.Add(this.pictureBox7);
             this.Controls.Add(this.pictureBox6);
             this.Controls.Add(this.pictureBox5);
@@ -939,10 +876,27 @@
             this.Controls.Add(this.StartMyTrip);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
+            this.Controls.Add(this.pictureBox24);
+            this.Controls.Add(this.pictureBox23);
+            this.Controls.Add(this.pictureBox22);
+            this.Controls.Add(this.pictureBox21);
+            this.Controls.Add(this.pictureBox20);
+            this.Controls.Add(this.pictureBox19);
+            this.Controls.Add(this.pictureBox18);
+            this.Controls.Add(this.pictureBox17);
+            this.Controls.Add(this.pictureBox16);
+            this.Controls.Add(this.pictureBox15);
+            this.Controls.Add(this.pictureBox14);
+            this.Controls.Add(this.pictureBox13);
+            this.Controls.Add(this.pictureBox12);
+            this.Controls.Add(this.pictureBox11);
+            this.Controls.Add(this.pictureBox10);
+            this.Controls.Add(this.pictureBox9);
+            this.Controls.Add(this.pictureBox8);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
-            this.Text = "Sailling Navigator";
+            this.Text = " ";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
@@ -1024,12 +978,8 @@
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.Label label13;
         private System.Windows.Forms.ComboBox To;
-        private System.Windows.Forms.ComboBox ToIndex;
         private System.Windows.Forms.ComboBox From;
-        private System.Windows.Forms.ComboBox FromIndex;
         private System.Windows.Forms.Label navlabel;
         private System.Windows.Forms.ComboBox navBox;
         private System.Windows.Forms.PictureBox pictureBox2;

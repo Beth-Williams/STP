@@ -17,5 +17,6 @@ This particular application is tailored to my previously owned sailboat, a 1967 
 This application is not meant to be used as a replacement to proper Navigation resources, and is primarily useful as an aid,  and a planning tool when navigation resources are not available.
 
 
+![Uploading image.png…]()
 
 
